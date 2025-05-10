@@ -1,0 +1,54 @@
+{
+  "introduction": {
+    "current_status": "Post-grad Computer Science student and intern",
+    "career_goal": "To become a frontend developer and eventually grow into a full-stack role",
+    "looking_for": "Primarily frontend developer positions, but also open to backend or AI-related roles",
+    "interests": "Building responsive UIs, crafting user-centered experiences, and exploring backend or AI technologies to become a well-rounded developer",
+    "characteristics": "Creative, adaptable, team-oriented, and eager to learn in fast-paced environments"
+  },
+  "skills": {
+    "computing_languages": ["Java", "Python", "C", "C++", "C#", "Kotlin"],
+    "frontend_frameworks": [
+      "React.js",
+      "Next.js",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "Tailwind CSS",
+      "Zustand"
+    ],
+    "backend_frameworks": ["Spring Boot", ".NET", "Node.js (learning)"],
+    "testing_frameworks": ["Playwright"],
+    "tools_technologies": [
+      "Git",
+      "Jira",
+      "Confluence",
+      "Bitbucket",
+      "Docker",
+      "AWS",
+      "CI/CD pipelines",
+      "Figma"
+    ],
+    "software_dev_practices": [
+      "Agile Methodologies",
+      "Software Design & Analysis (ERD, Sequence Diagrams, State charts)"
+    ],
+    "ai_ml": [
+      "Deep Learning (CNNs)",
+      "Sentiment Analysis",
+      "Pytorch",
+      "Tensorflow"
+    ]
+  },
+  "languages": {
+    "Bahasa Indonesia": "Fluent",
+    "English": "Fluent",
+    "Chinese": "Limited Working Proficiency"
+  },
+  "contact": {
+    "email": "kellyyasmine020@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/kelly-yasmine-69981a276",
+    "github": "https://github.com/YasmineK210"
+  }
+}
