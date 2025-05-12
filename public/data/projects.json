@@ -1,0 +1,65 @@
+{
+  "project1": {
+    "title": "KebunJio",
+    "description": "A gardening platform (web & mobile) for home gardeners. Website has forums and event listings. Mobile app has plant tracker, reminders, AI diagnosis, and activity logs.",
+    "tags": ["React", "Bootstrap", "SpringBoot"],
+    "github": "https://github.com/YasmineK210/KebunJio",
+    "img_source": "images/kebunjio.png"
+  },
+  "project2": {
+    "title": "Shopping Cart",
+    "description": "Mock e-commerce site with product viewing, cart, checkout, and admin product CRUD.",
+    "tags": ["React", "Material UI", "SpringBoot"],
+    "github": "https://github.com/YasmineK210/SA59-ShoppingCartt",
+    "img_source": "images/shopping-cart.png"
+  },
+  "project3": {
+    "title": "Card Match Game",
+    "description": "Android card matching game using custom image sets. Includes timer and leaderboard.",
+    "tags": ["Kotlin", "Android SDK"],
+    "github": "https://github.com/YasmineK210/CAMatchGame",
+    "img_source": "images/ca.png"
+  },
+  "project4": {
+    "title": "NCKU Book Market",
+    "description": "A secondhand book marketplace for NCKU students with user listings, comments, and profiles.",
+    "tags": ["React", "CSS"],
+    "github": "https://github.com/YasmineK210/ncku_book_market",
+    "img_source": "images/no-image.jpg"
+  },
+  "project5": {
+    "title": "Chicken Runner Game",
+    "description": "2-player chicken racing game inspired by Mario Kart with themed maps and mystery blocks.",
+    "tags": ["Unity", "C#"],
+    "github": "https://github.com/YasmineK210/Chicken_Runner",
+    "img_source": "images/no-image.jpg"
+  },
+  "project6": {
+    "title": "Viking Runner Game",
+    "description": "An endless runner game with Viking theme.",
+    "tags": ["Unity", "C#"],
+    "github": "https://github.com/YasmineK210/Viking_Run_Game",
+    "img_source": "images/no-image.jpg"
+  },
+  "project7": {
+    "title": "YouTube Comment Sentiment Analysis",
+    "description": "App that analyzes sentiment of YouTube comments using Python NLP.",
+    "tags": ["Python", "AI", "Pytorch"],
+    "github": null,
+    "img_source": "images/no-image.jpg"
+  },
+  "project8": {
+    "title": "Smart Chatbot for NCKU Queries",
+    "description": "Chatbot for answering NCKU queries based on sentence similarity and AI models.",
+    "tags": ["React", "Python", "AI", "Pytorch"],
+    "github": null,
+    "img_source": "images/no-image.jpg"
+  },
+  "project9": {
+    "title": "Fruit Recognition CNN model",
+    "description": "Train a CNN model to classify fruit images.",
+    "tags": ["React", "Python", "AI", "Pytorch"],
+    "github": null,
+    "img_source": "images/no-image.jpg"
+  }
+}
