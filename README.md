@@ -3,6 +3,9 @@
 ## Overview
 A responsive, modern portfolio website developed using Next.js, designed to showcase my technical projects, professional experience, and skills as an aspiring software developer. The website emphasizes clean design, user accessibility, and a structured layout to provide a seamless browsing experience for potential employers and collaborators.
 
+This website is deployed using Vercel. Link: https://kelly-yasmine-portfolio.vercel.app/
+
+
 ## Tech Stack
 - React
 - Next.js
@@ -21,9 +24,3 @@ One of the key challenges was implementing a dynamic project filtering system wh
 - Enhance filtering by allowing user to select more than one technology stack
 - Introduce a user-controlled light/dark mode toggle for better accessibility and personalization
 - Enhance website responsiveness across different screen size
-
-## Link: 
-https://kelly-yasmine-portfolio.vercel.app/
-
-## Code:
-https://github.com/YasmineK210/my-portfolio
