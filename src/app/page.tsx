@@ -9,9 +9,13 @@ export default function Home() {
   const setSelectedQuestion = useQnAStore((state) => state.setQuestion);
 
   return (
-    <main className="max-w-5xl mx-auto px-4 py-10 mt-5 min-h-screen flex flex-col items-center justify-center">
-      <h1 className="text-5xl font-bold mb-4">Hi, I'm Kelly Yasmine! 👋</h1>
-      <p className="text-2xl mt-5">Ask me anything you want to know! 💭</p>
+    <main className="max-w-screen mx-auto px-4 py-10 min-h-screen flex flex-col items-center justify-center bg-black">
+      <h1 className="text-5xl font-bold mb-4 text-white">
+        Hi, I'm Kelly Yasmine! 👋
+      </h1>
+      <p className="text-2xl mt-5 text-white">
+        Ask me anything you want to know! 💭
+      </p>
 
       <div className="flex flex-col sm:flex-row max-w-3xl w-full mt-10 gap-4 sm:items-center justify-center">
         <form className="w-full sm:max-w-sm">

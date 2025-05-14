@@ -25,8 +25,10 @@ export default function Projects() {
     : projects;
 
   return (
-    <div className="p-20 min-h-screen mx-auto">
-      <h1 className="text-5xl font-bold mb-10 text-center">My Projects</h1>
+    <div className="p-20 min-h-screen mx-auto bg-black">
+      <h1 className="text-5xl font-bold mb-10 text-center text-white">
+        My Projects
+      </h1>
       <TagFilter allTags={allTags} />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1">
         {filteredProjects.map((project) => (
