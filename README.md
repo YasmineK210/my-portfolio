@@ -20,7 +20,10 @@ This website is deployed using Vercel. Link: https://kelly-yasmine-portfolio.ver
 ## Challenges & What I Learned
 One of the key challenges was implementing a dynamic project filtering system while maintaining component reusability and state management best practices. This project significantly improved my understanding of TypeScript and how to enforce type safety across components. 
 
+## Updates
+- 01/06/2025: Introduce a user-controlled light/dark mode toggle for better accessibility and personalization + Refactor answer box to change on input selection for better UX
+
+
 ## Future Iterations Plan
 - Enhance filtering by allowing user to select more than one technology stack
-- Introduce a user-controlled light/dark mode toggle for better accessibility and personalization
 - Enhance website responsiveness across different screen size
