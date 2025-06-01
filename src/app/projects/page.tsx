@@ -25,8 +25,8 @@ export default function Projects() {
     : projects;
 
   return (
-    <div className="p-20 min-h-screen mx-auto bg-black">
-      <h1 className="text-5xl font-bold mb-10 text-center text-white">
+    <div className="p-20 min-h-screen mx-auto dark:bg-black bg-gray-50">
+      <h1 className="text-5xl font-bold mb-10 text-center dark:text-white text-black">
         My Projects
       </h1>
       <TagFilter allTags={allTags} />

@@ -18,11 +18,15 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   github,
 }) => {
   return (
-    <div className="max-w-sm rounded-lg overflow-hidden shadow-lg bg-gray-400 mt-10">
+    <div className="max-w-sm rounded-lg overflow-hidden shadow-lg mt-10">
       <img src={img_source} alt={title} className="h-48 w-full object-cover" />
-      <div className="px-6 py-4 rounded-b-lg shadow-lg bg-gray-800 min-h-65">
-        <div className="font-bold text-xl mb-2 text-white">{title}</div>
-        <p className="text-gray-200 text-md mb-4">{description}</p>
+      <div className="px-6 py-4 rounded-b-lg shadow-lg dark:bg-gray-800 bg-gray-100 shadow-gray-800 min-h-65">
+        <div className="font-bold text-xl mb-2 dark:text-white text-black">
+          {title}
+        </div>
+        <p className="dark:text-gray-200 text-gray-900 text-md mb-4">
+          {description}
+        </p>
         <div className="flex flex-wrap gap-4 mb-6">
           {tags.map((tag) => (
             <span
@@ -38,7 +42,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             href={github}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-400 text-md hover:underline"
+            className="dark:text-blue-400 text-blue-700 text-md hover:underline"
           >
             View on GitHub →
           </a>

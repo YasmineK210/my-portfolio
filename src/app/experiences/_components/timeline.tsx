@@ -1,110 +1,125 @@
 export default function Timeline() {
   return (
     <div>
-      <ol className="relative border-s border-gray-200 dark:border-gray-700">
+      <ol className="relative border-s border-[#0f1fff]">
+        {/* August 2025 */}
         <li className="mb-10 ms-4">
-          <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-          <time className="mb-1 text-md font-normal leading-none text-gray-400 dark:text-gray-500">
-            August 2020
+          <div className="absolute w-3 h-3 bg-[#0f1fff] rounded-full mt-1.5 -start-1.5 border border-[#0f1fff]"></div>
+          <time className="mb-1 text-md font-normal leading-none text-gray-700 dark:text-gray-500">
+            August 2025
           </time>
-          <h3 className="text-xl font-semibold  text-white">
-            Started my undergraduate studies in National Cheng Kung University
+          <h3 className="text-xl font-semibold dark:text-white text-black">
+            [UPCOMING] Graduate with Graduate Diploma in System Analysis
           </h3>
-          <p className="mb-4 text-base font-normal text-gray-400">
-            Tainan, Taiwan
-          </p>
         </li>
+
+        {/* July 2025 */}
         <li className="mb-10 ms-4">
-          <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-          <time className="mb-1 text-md font-normal leading-none text-gray-400 dark:text-gray-500">
-            August 2022
+          <div className="absolute w-3 h-3 bg-[#0f1fff] rounded-full mt-1.5 -start-1.5 border border-[#0f1fff]"></div>
+          <time className="mb-1 text-md font-normal leading-none text-gray-700 dark:text-gray-500">
+            July 2025
           </time>
-          <h3 className="text-xl font-semibold  text-white">
-            Started working remotely as a part-time QA in Widatech
+          <h3 className="text-xl font-semibold dark:text-white text-black">
+            [UPCOMING] Finish internship in Singapore Airlines
           </h3>
-          <p className="text-base font-normal text-gray-400 ">
+        </li>
+
+        {/* March 2025 */}
+        <li className="mb-10 ms-4">
+          <div className="absolute w-3 h-3 bg-[#0f1fff] rounded-full mt-1.5 -start-1.5 border border-[#0f1fff]"></div>
+          <time className="mb-1 text-md font-normal leading-none text-gray-700 dark:text-gray-500">
+            March 2025
+          </time>
+          <h3 className="text-xl font-semibold dark:text-white text-black">
+            Started internship in Singapore Airlines as frontend developer
+          </h3>
+          <p className="text-base font-normal text-gray-700">
             Responsibilities
           </p>
-          <p className="ml-5 text-base font-normal text-gray-400">
-            • Create and execute comprehensive test plans
+          <p className="ml-5 text-base font-normal text-gray-700">
+            • Resolve frontend bugs
           </p>
-          <p className="ml-5 text-base font-normal text-gray-400 ">
-            • Document bugs and work closely with developers to resolve issues
+          <p className="ml-5 text-base font-normal text-gray-700">
+            • Refactor legacy codes with the latest libraries and frameworks
           </p>
         </li>
+
+        {/* August 2024 */}
         <li className="mb-10 ms-4">
-          <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-          <time className="mb-1 text-md font-normal leading-none text-gray-400 dark:text-gray-500">
-            October 2023
+          <div className="absolute w-3 h-3 bg-[#0f1fff] rounded-full mt-1.5 -start-1.5 border border-[#0f1fff]"></div>
+          <time className="mb-1 text-md font-normal leading-none text-gray-700 dark:text-gray-500">
+            August 2024
           </time>
-          <h3 className="text-xl font-semibold text-white">
-            Resigned from Widatech
+          <h3 className="text-xl font-semibold dark:text-white text-black">
+            Started my Graduate Diploma studies in System Analysis in National
+            University of Singapore
           </h3>
-          <p className="text-base font-normal text-gray-400">
-            Jakarta, Indonesia
-          </p>
+          <p className="text-base font-normal text-gray-700">Singapore</p>
+          <p className="text-base font-normal text-gray-700">GPA: 4.45 / 5.0</p>
         </li>
+
+        {/* July 2024 */}
         <li className="mb-10 ms-4">
-          <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-          <time className="mb-1 text-md font-normal leading-none text-gray-400 dark:text-gray-500">
+          <div className="absolute w-3 h-3 bg-[#0f1fff] rounded-full mt-1.5 -start-1.5 border border-[#0f1fff]"></div>
+          <time className="mb-1 text-md font-normal leading-none text-gray-700 dark:text-gray-500">
             July 2024
           </time>
-          <h3 className="text-xl font-semibold text-white">
+          <h3 className="text-xl font-semibold dark:text-white text-black">
             Graduated with Bachelor Degree in Computer Science and Information
             Engineering
           </h3>
-          <p className="text-base font-normal text-gray-400">
+          <p className="text-base font-normal text-gray-700">
             Rewarded with Distinguished Scholarship for International Students
             Recipient for 7 semesters
           </p>
         </li>
+
+        {/* October 2023 */}
         <li className="mb-10 ms-4">
-          <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-          <time className="mb-1 text-md font-normal leading-none text-gray-400 dark:text-gray-500">
-            August 2024
+          <div className="absolute w-3 h-3 bg-[#0f1fff] rounded-full mt-1.5 -start-1.5 border border-[#0f1fff]"></div>
+          <time className="mb-1 text-md font-normal leading-none text-gray-700 dark:text-gray-500">
+            October 2023
           </time>
-          <h3 className="text-xl font-semibold text-white">
-            Started my Graduate Diploma studies in System Analysis in National
-            University of Singapore
+          <h3 className="text-xl font-semibold dark:text-white text-black">
+            Resigned from Widatech
           </h3>
-          <p className="text-base font-normal text-gray-400">Singapore</p>
-          <p className="text-base font-normal text-gray-400">GPA: 4.45 / 5.0</p>
+          <p className="text-base font-normal text-gray-700">
+            Jakarta, Indonesia
+          </p>
         </li>
+
+        {/* August 2022 */}
         <li className="mb-10 ms-4">
-          <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-          <time className="mb-1 text-md font-normal leading-none text-gray-400 dark:text-gray-500">
-            March 2025
+          <div className="absolute w-3 h-3 bg-[#0f1fff] rounded-full mt-1.5 -start-1.5 border border-[#0f1fff]"></div>
+          <time className="mb-1 text-md font-normal leading-none text-gray-700 dark:text-gray-500">
+            August 2022
           </time>
-          <h3 className="text-xl font-semibold text-white">
-            Started internship in Singapore Airlines as frontend developer
+          <h3 className="text-xl font-semibold dark:text-white text-black">
+            Started working remotely as a part-time QA in Widatech
           </h3>
-          <p className="text-base font-normal text-gray-400">
+          <p className="text-base font-normal text-gray-700">
             Responsibilities
           </p>
-          <p className="ml-5 text-base font-normal text-gray-400">
-            • Resolve frontend bugs
+          <p className="ml-5 text-base font-normal text-gray-700">
+            • Create and execute comprehensive test plans
           </p>
-          <p className="ml-5 text-base font-normal text-gray-400">
-            • Refactor legacy codes with the lastest libraries and frameworks
+          <p className="ml-5 text-base font-normal text-gray-700">
+            • Document bugs and work closely with developers to resolve issues
           </p>
         </li>
+
+        {/* August 2020 */}
         <li className="mb-10 ms-4">
-          <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-          <time className="mb-1 text-md font-normal leading-none text-gray-400 dark:text-gray-500">
-            July 2025
+          <div className="absolute w-3 h-3 bg-[#0f1fff] rounded-full mt-1.5 -start-1.5 border border-[#0f1fff]"></div>
+          <time className="mb-1 text-md font-normal leading-none text-gray-700 dark:text-gray-500">
+            August 2020
           </time>
-          <h3 className="text-xl font-semibold text-white">
-            [UPCOMING] Finish internship in Singapore Airlines
+          <h3 className="text-xl font-semibold dark:text-white text-black">
+            Started my undergraduate studies in National Cheng Kung University
           </h3>
-        </li>
-        <li className="mb-10 ms-4">
-          <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-          <time className="mb-1 text-md font-normal leading-none text-gray-400 dark:text-gray-500">
-            August 2025
-          </time>
-          <h3 className="text-xl font-semibold text-white">
-            [UPCOMING] Graduate with Graduate Diploma in System Analysis
-          </h3>
+          <p className="mb-4 text-base font-normal text-gray-700">
+            Tainan, Taiwan
+          </p>
         </li>
       </ol>
     </div>

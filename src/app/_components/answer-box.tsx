@@ -15,9 +15,9 @@ const syntaxHighlight = (json: string) => {
       let cls = "text-pink-400";
       if (/^"/.test(match)) {
         if (/:$/.test(match)) {
-          cls = "text-cyan-400";
+          cls = "dark:text-cyan-400 text-cyan-600";
         } else {
-          cls = "text-emerald-400";
+          cls = "dark:text-emerald-400 text-emerald-600";
         }
       }
       return `<span class="${cls}">${match}</span>`;
@@ -39,8 +39,8 @@ const AnswerBox: React.FC = () => {
     formatted = "Select a valid question to get an answer.";
   }
   return (
-    <div className="bg-gray-900 rounded-lg min-h-[125px] font-mono">
-      <h3 className="text-l font-normal text-white rounded-t-md bg-gray-950 px-3 py-3 mb-2">
+    <div className="dark:bg-gray-900 bg-gray-100 shadow-lg rounded-lg min-h-[125px] font-mono">
+      <h3 className="text-l font-normal text-white rounded-t-md dark:bg-gray-950 bg-gray-800 px-3 py-3 mb-2">
         JSON answer:
       </h3>
       <pre

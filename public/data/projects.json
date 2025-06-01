@@ -25,35 +25,35 @@
     "description": "A secondhand book marketplace for NCKU students with user listings, comments, and profiles.",
     "tags": ["React", "CSS"],
     "github": "https://github.com/YasmineK210/ncku_book_market",
-    "img_source": "images/no-image.jpg"
+    "img_source": "images/ncku-book.png"
   },
   "project5": {
     "title": "Chicken Runner Game",
     "description": "2-player chicken racing game inspired by Mario Kart with themed maps and mystery blocks.",
     "tags": ["Unity", "C#"],
     "github": "https://github.com/YasmineK210/Chicken_Runner",
-    "img_source": "images/no-image.jpg"
+    "img_source": "images/chicken.png"
   },
   "project6": {
     "title": "Viking Runner Game",
     "description": "An endless runner game with Viking theme.",
     "tags": ["Unity", "C#"],
     "github": "https://github.com/YasmineK210/Viking_Run_Game",
-    "img_source": "images/no-image.jpg"
+    "img_source": "images/viking.png"
   },
   "project7": {
     "title": "YouTube Comment Sentiment Analysis",
     "description": "App that analyzes sentiment of YouTube comments using Python NLP.",
     "tags": ["Python", "AI", "Pytorch"],
     "github": null,
-    "img_source": "images/no-image.jpg"
+    "img_source": "images/youtube-sentiment.png"
   },
   "project8": {
     "title": "Smart Chatbot for NCKU Queries",
     "description": "Chatbot for answering NCKU queries based on sentence similarity and AI models.",
     "tags": ["React", "Python", "AI", "Pytorch"],
     "github": null,
-    "img_source": "images/no-image.jpg"
+    "img_source": "images/ncku-bot.png"
   },
   "project9": {
     "title": "Fruit Recognition CNN model",
